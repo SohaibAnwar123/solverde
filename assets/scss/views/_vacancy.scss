@@ -1,0 +1,157 @@
+.page-header.vacancy-page-header {
+    background: $secondaryClr;
+
+    h1 {
+        color: $primaryClr;
+    }
+
+}
+
+.site-header.vacancy-site-header {
+    .navbar .navbar-nav .nav-link {
+        color: $primaryClr;
+    }
+
+    &.fixed-top {
+        background-color: $secondaryClr;
+    }
+}
+
+// vacancyHero sec start 
+.vacancyHero {
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+    p {
+        color: $secondaryClr;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        color: $primaryClr;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
+
+.vacancyLi {
+    max-width: 785px;
+    width: 100%;
+
+    li {
+        padding-bottom: 32px;
+        border-bottom: 1px solid #DADDE2;
+        margin-bottom: 32px;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        p {
+            padding-bottom: 8px;
+        }
+    }
+
+    .vacancyLiInner {
+        list-style: disc;
+        color: $primaryClr;
+        padding-left: 30px;
+
+        li {
+            padding-bottom: 2px;
+            border-bottom: 0;
+            margin-bottom: 0;
+            color: $primaryClr;
+        }
+    }
+
+    &.vacancyLi_ {
+        max-width: 416px;
+        width: 100%;
+        padding: 32px 24px;
+
+        li {
+            padding-bottom: 16px;
+            margin-bottom: 0;
+            border-bottom: 0;
+
+            &:last-child {
+                margin-top: 24px;
+                border-top: 1px solid #DADDE2;
+                padding: 32px 0;
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
+                .customBtn {
+                    background-color: $primaryClr;
+                    color: $whiteClr;
+                    padding: 10px 51px;
+                    font-size: 14px;
+                    font-weight: 450;
+                    line-height: normal;
+                    text-wrap: nowrap;
+                    gap: 5px;
+                    border: 1px solid $primaryClr;
+                    &:hover{
+                        background-color: unset;
+                        color: $primaryClr;
+                    }
+                    &:last-child{
+                        background-color: unset;
+                        color: #5355E4;
+                        border: 0;
+                        line-height: 140%;
+                        padding: 0;
+                    }
+                }
+            }
+
+            img {
+                max-width: 20px;
+                width: 100%;
+            }
+
+            span {
+                color: #5C627A;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+                display: block;
+                margin-bottom: 4px;
+            }
+
+            p {
+                margin-bottom: 16px;
+            }
+
+            h6 {
+                color: $primaryClr;
+                font-size: 16px;
+                font-weight: 450;
+                line-height: 140%;
+            }
+        }
+    }
+}
+
+// vacancyHero sec end
+
+// otherVacancy sec start
+.otherVacancy{
+    padding-bottom: 80px;
+    .casinoContent p{
+        color: #5355E4;
+    }
+    .vaccinesList li{
+        &:last-of-type{
+            border-bottom: 0;
+        }
+    }
+} 
+// otherVacancy sec end

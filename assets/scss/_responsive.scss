@@ -1,0 +1,701 @@
+@media (max-width: 1399.98px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .heroWrap.homeHero .heroImg {
+        max-width: 760px;
+    }
+
+    .workContent li h5 {
+        font-size: 24px;
+    }
+
+    .workContent li .workImg {
+        max-width: 30px;
+        height: 30px;
+        margin-bottom: 16px;
+    }
+
+    .workContent {
+        margin-top: 35px;
+        gap: 30px 0;
+    }
+
+    .workUs {
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+
+    .heroWrap.homeHero .customBtn {
+        max-width: 270px;
+    }
+
+    .heroWrap.homeHero .heroInner h4 {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .majorCasino {
+        padding-top: 80px;
+        padding-bottom: 35px;
+    }
+
+    .customBtn {
+        font-size: 15px;
+    }
+
+    .casinoContent h2 {
+        line-height: 1.1;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .workContent li {
+        width: calc(33.33% - 16px);
+    }
+
+    .vaccinesWrap {
+        padding: 75px 0;
+    }
+
+    .vaccinesList {
+        padding: 16px 24px;
+    }
+
+    .vaccinesList li {
+        padding: 16px 0;
+    }
+
+    .vaccinesList li h5 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .discoverPosition {
+        padding: 24px;
+    }
+
+    .discoverPosition h4 {
+        margin-bottom: 10px;
+    }
+
+    .discoverPosition .discoverArrows {
+        width: 100%;
+        max-width: 140px;
+    }
+
+    .discoverPosition {
+        margin-bottom: 40px;
+    }
+
+    .discoverPosition h5 {
+        font-size: 28px;
+    }
+
+    // career page start 
+    .discoverPosition.discoverPosition_ .gardient {
+        width: 180px;
+        height: 180px;
+    }
+
+    .heroWrap.careerHero h1 {
+        font-size: 56px;
+    }
+
+    .heroWrap.careerHero {
+        padding: 100px 0px 34px 0px;
+    }
+
+    .positionDetails {
+        padding-top: 50px;
+    }
+
+    .positionDetails .vaccinesList li h5 {
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+
+    // career page end
+
+    // CONTACT us page start 
+    .contactUs {
+        padding: 60px 0;
+    }
+
+    .contactDetails h3 {
+        font-size: 30px;
+    }
+
+    .contactDetails {
+        padding: 32px;
+        border-radius: 16px;
+    }
+
+    .footerWrap .footerLogo {
+        margin-bottom: 40px;
+    }
+
+    .footerLi a {
+        font-size: 24px;
+    }
+
+    .footerContent h6 {
+        font-size: 20px;
+    }
+
+    .footerWrap {
+        padding-top: 60px;
+    }
+
+    // CONTACT us page end
+
+    // News page start
+    .newsInner {
+        width: calc(74% - 20px);
+        gap: 16px 0;
+    }
+
+    .newsWrap .filterSec {
+        width: calc(26% - 20px);
+    }
+
+    .newsInner li {
+        width: calc(33.33% - 10px);
+    }
+
+    .newsInner li .customBtn {
+        margin-top: 16px;
+    }
+
+    // News page end
+
+    // other vacancies page start
+    .vacancyLi {
+        max-width: 610px;
+    }
+
+    // other vacancies page end
+
+    // article page start
+    .articleLi {
+        max-width: 640px;
+    }
+
+    // article page end
+}
+
+// Ipad pro 
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .heroWrap.homeHero {
+        height: 80vh;
+    }
+
+    .heroWrap.homeHero .heroImg {
+        max-width: 670px;
+    }
+
+    .casinoInner .casinoImg {
+        width: calc(50% - 16px);
+    }
+
+    .casinoContent {
+        width: calc(50% - 16px);
+    }
+
+    .workContent li h5 {
+        font-size: 20px;
+    }
+
+    .vaccinesList {
+        width: calc(50% - 16px);
+    }
+
+    .discoverPosition {
+        border-radius: 16px;
+    }
+
+    // career page start 
+    .positionDetails .vaccinesList {
+        width: calc(69% - 25px);
+    }
+
+    .filterSec {
+        width: calc(31% - 25px);
+    }
+
+    // career page end
+
+    // contact us page end
+    .contactDetails {
+        width: calc(64.8% - 15px);
+    }
+
+    .contactInfo {
+        width: calc(35.2% - 15px);
+    }
+
+    // contact us end
+
+    // News page start
+    .newsInner {
+        width: 100%;
+    }
+
+    .newsWrap .filterSec {
+        width: 100%;
+    }
+
+    .newsWrap {
+        padding: 50px 0;
+    }
+
+    .newsWrap .filterSec .accordion-body .customBtn {
+        display: flex;
+    }
+
+    .discoverPosition h5 {
+        font-size: 24px;
+    }
+
+    .discoverPosition.discoverPosition_ {
+        border-radius: 16px;
+    }
+
+    // News page end
+
+    // article page start
+    .page-header.article-page-header h1 {
+        font-size: 34px;
+    }
+
+    .articleHero {
+        padding-top: 40px;
+        padding-bottom: 110px;
+    }
+
+    // article page end
+}
+
+//  ipad 
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .heroWrap.homeHero{
+        height: 50vh;
+        .heroImg {
+            max-width: 560px;
+        }
+    }
+
+    .heroWrap.homeHero .heroInner {
+        max-width: 335px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .heroWrap.homeHero .customBtn {
+        max-width: 180px;
+    }
+
+    .casinoContent li+li {
+        margin-top: 12px;
+    }
+
+    .vaccinesList {
+        padding: 8px 14px;
+    }
+
+    .discoverPosition {
+        padding: 20px 18px;
+    }
+
+    .discoverPosition .discoverArrows {
+        max-width: 90px;
+    }
+
+    .discoverPosition .discoverArrows:last-child {
+        left: 72%;
+    }
+
+    // career page start 
+    .positionDetails .vaccinesList {
+        width: 100%;
+    }
+
+    .filterSec {
+        width: 100%;
+        display: none;
+
+        &.filterSec__ {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            width: 100vw;
+            height: 100%;
+            padding: 32px;
+            z-index: 10;
+        }
+
+        a {
+            display: none;
+        }
+
+        h5 {
+            width: 100%;
+            text-align: center;
+        }
+
+        h6 {
+            display: none;
+        }
+
+        .filtersMob {
+            margin-top: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            opacity: 0.5;
+
+            &.filtersMob_ {
+                opacity: 1;
+
+                h6 {
+                    display: block;
+                }
+            }
+
+            .customBtn {
+                background-color: $secondaryClr;
+                color: $primaryClr;
+                font-size: 16px;
+                font-weight: 450;
+                width: 100%;
+                margin-top: 8px;
+                text-decoration: none !important;
+            }
+
+            a {
+                display: flex;
+            }
+        }
+    }
+
+    body.bodyFixed {
+        position: fixed;
+        overflow: hidden;
+    }
+
+    .discoverPosition.discoverPosition_ .gardient:last-child {
+        left: 50%;
+        top: -100%;
+    }
+
+    .heroWrap.careerHero h1 {
+        font-size: 48px;
+    }
+
+    .heroWrap.careerHero .roundedGrad {
+        width: 290px;
+        height: 290px;
+        left: -20px;
+        top: -20px;
+    }
+
+    .heroWrap.careerHero .roundedGrad:last-child {
+        left: auto;
+        top: auto;
+        bottom: 0;
+        right: 0;
+    }
+
+    // career page end
+
+    // contact us page end
+    .contactDetails {
+        width: 100%;
+    }
+
+    .contactInfo {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .contactUs {
+        padding: 40px 0;
+    }
+
+    // contact us end
+
+
+    // other vacancies page start
+    .vacancyHero {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    // other vacancies page end
+
+    // article page start
+    .articleLi {
+        max-width: 100%;
+    }
+
+    .page-header.article-page-header h1 {
+        font-size: 28px;
+    }
+
+    .articleLi.articleLi_ {
+        padding: 0;
+        padding-top: 32px;
+    }
+
+    // article page end
+}
+
+//  mobile 
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .heroWrap.homeHero {
+        height: calc(100vh - 88px);
+        height: calc(100dvh - 88px);
+    }
+
+    .heroWrap.homeHero .heroInner {
+        max-width: 100%;
+        position: relative;
+        z-index: 1;
+        justify-content: end;
+        padding-bottom: 45px;
+
+    }
+
+    .heroWrap.homeHero .heroImg {
+        max-width: 520px;
+        width: 520px;
+        right: -25px;
+    }
+
+    .heroWrap.homeHero .customBtn {
+        max-width: 100%;
+    }
+
+    .casinoInner .casinoImg {
+        width: 100%;
+    }
+
+    .casinoContent {
+        width: 100%;
+    }
+
+    .casinoInner {
+        justify-content: center;
+        gap: 60px 0;
+    }
+
+    .workContent li {
+        width: calc(50% - 16px);
+    }
+
+    .vaccinesWrap .vaccinesInner {
+        flex-wrap: wrap;
+        gap: 40px 0;
+    }
+
+    .vaccinesList {
+        width: 100%;
+        padding: 40px 16px;
+    }
+
+    .casinoContent li+li {
+        margin-top: 8px;
+    }
+
+    .casinoContent .customBtn {
+        display: none;
+    }
+
+    .vaccinesList li {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .vaccinesList li:last-child .customBtn {
+        background-color: $primaryClr;
+        max-width: 100%;
+        width: 100%;
+        border-radius: 100px;
+        border: 1px solid $primaryClr;
+        padding: 12px 24px;
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    .vaccinesList li:last-child {
+        padding-bottom: 0;
+    }
+
+    .discoverPosition {
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .discoverPosition .customBtn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 48px;
+    }
+
+    .discoverPosition h5 {
+        font-size: 40px;
+    }
+
+    .discoverPosition .discoverArrows {
+        max-width: 150px;
+        right: 20px;
+        left: auto;
+        transform: unset;
+    }
+
+    .discoverPosition .discoverArrows:last-child {
+        left: 100px;
+    }
+
+    .heroWrap.careerHero .roundedGrad {
+        left: -60px;
+        top: -50px;
+    }
+
+    .heroWrap.careerHero .roundedGrad:last-child {
+        bottom: -35px;
+        right: -80px;
+    }
+
+    .positionDetails .vaccinesList li h5 {
+        font-size: 20px;
+    }
+
+    .discoverPosition.discoverPosition_ .gardient {
+        top: -85px;
+        right: -35px;
+        left: auto;
+    }
+
+    .discoverPosition.discoverPosition_ .gardient:last-child {
+        left: -40px;
+        top: auto;
+        bottom: -80px;
+    }
+
+    .discoverPosition.discoverPosition_ {
+        text-align: start;
+    }
+
+    .filterSec.filterSec__ {
+        height: 100%;
+        min-height: 100vh;
+        overflow: auto;
+    }
+
+    .filterSec .filtersMob {
+        margin-top: 98px;
+    }
+
+    .filterFixedBtn {
+        display: none;
+        z-index: 99;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 110px;
+        position: fixed;
+
+        .customBtn {
+            background-color: $secondaryClr;
+            color: $primaryClr;
+            font-size: 20px;
+            font-weight: 450;
+            border-radius: 100px;
+            background: var(--primary-verde, #00E589);
+            box-shadow: 0px -1px 2px 0px rgba(0, 0, 0, 0.05);
+            width: fit-content;
+            gap: 8px;
+        }
+    }
+
+
+    // contact us page end
+    .contactDetails h3 {
+        font-size: 24px;
+    }
+
+    .contactDetails {
+        padding: 32px 24px;
+    }
+
+    // contact us end
+
+    // News page start
+    .newsInner li {
+        width: 100%;
+    }
+
+    // News page end
+
+    // other vacancies page start
+    .backVaga {
+        gap: 10px;
+        color: $primaryClr;
+        font-size: 16px;
+        font-weight: 450;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .vacancyLi.vacancyLi_ {
+        max-width: 100%;
+        padding: 0;
+    }
+
+
+    // other vacancies page end
+
+    // article page start
+    .articleLi.articleLi_ li:first-child {
+        border-top: 1px solid #DADDE2;
+        border-bottom: 0;
+        padding: 24px 0 0 0;
+        align-items: center;
+    }
+
+    .articleLi.articleLi_ li:first-child .customBtn:last-child {
+        color: #5355E4;
+    }
+    .articleLi.articleLi_ li:first-child .customBtn:nth-of-type(2) {
+        color: #fff !important;
+    }
+    .articleLi li:first-child .articleLi.articleLi_ li{
+        border-bottom: 1px solid #DADDE2;
+        padding-bottom: 24px;
+        
+    }
+    .articleLi li:first-child .articleLi.articleLi_{
+      padding-top: 0;
+    }
+    .articleLi .articleImg {
+        margin: 24px 0;
+    }
+    // article page end
+}

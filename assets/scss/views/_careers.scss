@@ -1,0 +1,281 @@
+.heroWrap.careerHero {
+    border-radius: 0px 0px 16px 16px;
+    background: $primaryClr;
+    padding: 136px 0px 56px 0px;
+    overflow: hidden;
+
+    h1 {
+        color: $whiteClr;
+        font-size: 72px;
+        font-weight: 450;
+        line-height: normal;
+    }
+.heroInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .roundedGrad {
+        position: absolute;
+        width: 354px;
+        height: 354px;
+        border-radius: 50%;
+        opacity: 0.5;
+        background: radial-gradient(50% 50% at 50% 50%, #00E589 47.4%, #5355E4 100%);
+        filter: blur(70px);
+        left: 24%;
+        top: 0;
+        transform: translateY(-65%);
+
+        &:last-child {
+            left: 64%;
+            top: auto;
+            bottom: 0;
+            transform: translateY(65%);
+        }
+    }
+}
+
+// hero sec end 
+
+// positionDetails sec start 
+.positionDetails {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: $whiteClr;
+
+    .vaccinesList {
+        border-radius: 0px;
+        background: $whiteClr;
+        padding: 0;
+        width: calc(69% - 40px);
+
+        li {
+            h5 {
+                color: #05253E;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 8px;
+                font-size: 32px;
+            }
+            a{
+                &:hover{
+                    h5{
+                        color: $secondaryClr;
+                    }      
+                }
+            }
+
+            .customBtn span {
+                color: inherit;
+            }
+
+            &.disabled {
+                opacity: 0.5;
+
+                span {
+                    color: #F13131;
+                }
+
+                .customBtn {
+                    background: #5C627A;
+                    color: $whiteClr;
+                }
+                a{
+                    pointer-events: none;
+                }
+            }
+
+            &:last-child .customBtn {
+                border: 1px solid $primaryClr;
+                background: $primaryClr;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 12px 24px;
+                color: $whiteClr;
+                font-size: 16px;
+                font-weight: 450;
+                border-radius: 100px;
+                max-width: 180px;
+                width: 100%;
+                line-height: normal;
+                margin-top: 8px;
+
+                &:hover {
+                    background: unset;
+                    color: $primaryClr;
+                }
+            }
+        }
+    }
+}
+
+.filterSec {
+    width: calc(31% - 40px);
+
+    h5 {
+        color: $secondaryClr;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    a {
+        color: $primaryClr;
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 150%;
+        text-decoration-line: underline !important;
+    }
+
+    h6 {
+        color: $primaryClr;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-top: 16px;
+    }
+
+    .accordion-button {
+        padding: 0;
+        color: $primaryClr;
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 140%;
+        text-transform: uppercase;
+
+        &::after {
+            background-image: url(../img/accordinIcon.svg);
+            width: 20px;
+            height: 10px;
+            background-size: 15px;
+        }
+
+        &:not(.collapsed)::after {
+            filter: drop-shadow(0px -5px 2px rgba(0, 0, 0, 0.25));
+        }
+    }
+
+    .accordion-item {
+        &:last-child {
+            .accordion-header {
+                padding-bottom: 24px;
+                border-bottom: 1px solid #DADDE2;
+            }
+        }
+    }
+
+    .accordion-header {
+        line-height: 1;
+        padding-top: 24px;
+        margin-top: 24px;
+        border-top: 1px solid #DADDE2;
+    }
+
+    .accordion-body {
+        padding: 1rem 0;
+
+        li {
+            &+li {
+                margin-top: 14px;
+            }
+        }
+
+        .form-check {
+            margin-bottom: 0;
+            padding: 0 !important;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .form-check-input {
+                width: 20px;
+                height: 20px;
+                width: 22px;
+                height: 22px;
+                border-radius: 5px;
+                border: 2px solid $primaryClr;
+                margin: 0 !important;
+
+                &:focus {
+                    box-shadow: unset;
+
+                }
+
+                &:checked {
+                    background-color: $primaryClr;
+                    border-color: $primaryClr;
+                }
+            }
+        }
+
+
+        .form-check-label {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+
+
+            img {
+                width: 20px;
+            }
+
+            p {
+                color: $primaryClr;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+            }
+        }
+    }
+}
+
+// positionDetails sec end 
+
+
+// send application start
+.discoverPosition.discoverPosition_ {
+    border-radius: 32px;
+    background: $primaryClr;
+overflow: hidden;
+
+    h4 {
+        color: $secondaryClr;
+    }
+
+    h5 {
+        color: $whiteClr;
+    }
+
+    .customBtn {
+        background-color: $secondaryClr;
+        color: $primaryClr;
+        border-color: $secondaryClr;
+        text-wrap: nowrap;
+
+        &:hover {
+            background-color: $whiteClr;
+            border-color: $primaryClr;
+        }
+    }
+
+    .gardient {
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        background: radial-gradient(50% 50% at 50% 50%, #00E589 47.4%, #5355E4 100%);
+        filter: blur(70px);
+        position: absolute;
+        left: 10%;
+        top: 60%;
+
+        &:last-child {
+            left: 60%;
+            top: -85%;
+        }
+    }
+}
+
+// send application end

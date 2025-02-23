@@ -1,0 +1,511 @@
+// hero sec start 
+.heroWrap {
+    background-color: $primaryClr;
+    color: #fff;
+    position: relative;
+
+    .container {
+        height: 100%;
+    }
+
+    &.homeHero {
+        height: 100vh;
+        overflow: hidden;
+
+        .heroInner {
+            max-width: 460px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+
+            h4 {
+                margin-top: 24px;
+                margin-bottom: 40px;
+                font-family: 'Futura PT'; 
+            }
+
+            h1 {
+                color: inherit;
+                font-weight: 500;
+                font-size: clamp(40px, 3.9vw, 56px);
+                line-height: 120%;
+                font-family: 'Futura PT'; 
+            }
+        }
+
+        .customBtn {
+            background-color: $secondaryClr;
+            border: 1px solid $secondaryClr;
+            max-width: 360px;
+            width: 100%;
+            line-height: 1.6;
+            font-size: 20px;
+
+            &:hover {
+                background-color: unset;
+            }
+        }
+
+        .heroImg {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 900px;
+            width: 65vw;
+            z-index: 0;
+            img{
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+
+// Highlights Section Style 
+.highlights-section {
+    .section-carousel{
+        .owl-carousel .item{
+            background: transparent !important;
+            padding: 0 !important;
+            overflow: hidden;
+            border-radius: 32px;
+            position: relative;
+            z-index: 1;
+            
+            .item-img{
+                width: 100%;
+                height: 400px !important;
+                position: relative;
+                z-index: 1;
+                margin: 0 !important;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .item-content{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                background: rgba(0, 0, 0, 0.20);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 80px 32px 32px 32px; 
+                gap: 24px;
+                h4{
+                    color: $whiteClr;
+                    text-align: center;
+                    font-family: 'Futura PT';
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%;
+                }
+                .item-btn{
+                    margin-top: 0;
+                }
+            }
+        }
+        .owl-nav{
+            width: 75.2%;
+        }
+    }
+}
+
+// major casino sec start 
+.majorCasino {
+    background: #F8F8F9;
+    padding-top: 112px;
+    padding-bottom: 64px;
+}
+
+.casinoInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .casinoImg {
+        width: calc(50% - 40px);
+    }
+}
+
+.casinoContent {
+    width: calc(50% - 40px);
+
+    li {
+        &+li {
+            margin-top: 16px;
+        }
+    }
+
+    h2 {
+        max-width: 540px;
+        width: 100%;
+    }
+
+    p {
+        color: $secondaryClr;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        color: #5C627A;
+        font-size: 20px;
+        font-weight: 500;
+        max-width: 502px;
+        width: 100%;
+        line-height: 140%;
+    }
+
+    h4 {
+        color: #5C627A;
+    }
+
+    .customBtn {
+        border: 1px solid $primaryClr;
+        background: $primaryClr;
+        color: $whiteClr;
+        &:hover{
+            background-color: #5C627A;
+        }
+    }
+}
+
+// major casino sec end
+
+// work with us sec start
+.workUs {
+    padding-top: 64px;
+    padding-bottom: 112px;
+    background: #F8F8F9;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.workContent {
+    display: flex;
+    margin-top: 64px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px 0;
+
+    li {
+        width: calc(33.33% - 24px);
+
+        .workImg {
+            max-width: 48px;
+            width: 100%;
+            height: 48px;
+            margin-bottom: 24px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        h5 {
+            color: $primaryClr;
+            font-size: 32px;
+            font-weight: 450;
+            line-height: 110%;
+        }
+    }
+}
+
+// work with us sec end
+
+// vaccines sec start
+.vaccinesWrap {
+    padding: 112px 0;
+
+    .container {
+        max-width: 1230px;
+    }
+
+    .vaccinesInner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .casinoContent {
+        h4 {
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+}
+
+.vaccinesList {
+    border-radius: 16px;
+    background: rgba(218, 221, 226, 0.20);
+    padding: 26px 32px;
+    width: calc(50% - 40px);
+
+    li {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding: 24px 0;
+        border-bottom: 1px solid #DADDE2;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        h5 {
+            color: $primaryClr;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 8px;
+        }
+
+        span {
+            color: #5C627A;
+            font-size: 14px;
+            font-weight: 450;
+            line-height: normal;
+        }
+
+        .customBtn {
+            padding: 4px 10px;
+            font-size: 12px;
+            font-weight: 450;
+            line-height: 140%;
+            gap: 4px;
+            border-radius: 4px;
+
+            &:first-child {
+                color: $primaryClr;
+                background-color: $secondaryClr;
+            }
+
+            &:last-child {
+                background: #5355E4;
+                color: $whiteClr;
+            }
+        }
+    }
+}
+
+// vaccines sec end
+
+// discover positions sec start
+.discoverPosition {
+    border-radius: 32px;
+    background: $secondaryClr;
+    padding: 48px;
+    position: relative;
+    margin: 80px 0;
+    .sectioin-content {
+        position: relative;
+        z-index: 2;
+    }
+    h4 {
+        color: #5355E4;
+        font-weight: 600;
+        line-height: 150%;
+        margin-bottom: 16px;
+    }
+
+    h5 {
+        color: $primaryClr;
+        font-size: clamp(36px, 2.77vw, 40px);
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    .customBtn {
+        background-color: $primaryClr;
+        color: $whiteClr;
+        border: 1px solid $primaryClr;
+        &:hover{
+            background-color: #5C627A;
+        }
+    }
+
+    .discoverArrows {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+
+        &:last-child {
+            left: 80%;
+            top: auto;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+// discover positions sec end
+
+// Teams Section Styles 
+.home-teams-section{
+    background: $primaryClr;
+    position: relative;
+    overflow: hidden;
+    color: $whiteClr;
+    padding: 112px 0 128px;
+    &::before, &::after{
+        content: '';
+        width: 25vw;
+        height: 25vw;
+        position: absolute;
+        display: block;
+        border-radius: 100%;
+        opacity: 0.5;
+        background: radial-gradient(50% 50% at 50% 50%, #00E589 47.4%, #5355E4 100%);
+        filter: blur(70px);
+        z-index: 0;
+    }
+
+    &::before {
+        right: 15%;
+        top: -20%;
+    }
+
+    &::after {
+        left: -15%;
+        bottom: 10%;
+    }
+    .section-content{
+        z-index: 1;
+    }
+    .section-text{
+        h4{
+            font-size: 24px;
+        }
+        
+    }
+    .section-carousel {
+        padding-right: 32px;
+        .teams-carousel {
+            width: 100% !important;
+
+            @media screen and (max-width: 600px) {
+                width: 160% !important;
+            }
+            .item {
+                min-height: 531px;
+                padding-bottom: 48px !important;
+                justify-content: space-between;
+                .item-content{
+                    width: 100%;
+                    display: flex;   
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .item-icon-con{
+                    width: 15.28vw;
+                    height: 15.28vw;
+                    min-width: 158px;
+                    min-height: 158px;
+                    max-width: 220px;
+                    max-height: 220px;
+                    margin: 44px auto 24px;
+                    box-shadow: -22.642px -16.635px 46px 0px rgba(255, 255, 255, 0.05) ;
+                    border-radius: 50%;
+                    position: relative;
+                    .item-icon{
+                        width: 100%;
+                        height: 100%;
+                        flex-shrink: 0;
+                        fill: var(--primary-azul, #05253E);
+                        stroke-width: 4px;
+                        stroke:  rgba(39, 75, 105, 0.66);
+                        box-shadow: 22.642px 16.635px 56.375px 0px rgba(0, 0, 0, 0.25) inset;
+                        filter: drop-shadow(-17.559px -10.166px 49.443px rgba(255, 255, 255, 0.10)) drop-shadow(0px 1.848px 1.848px rgba(0, 0, 0, 0.25));
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        img{
+                            width: 40%;
+                        }
+                    }
+    
+                    .item-tag{
+                        position: absolute;
+                        right: 0px;
+                        top: 0px;
+                    }
+    
+                }
+                .item-text{
+                    h3{
+                        font-size: 36px;
+                        line-height: 1;
+                    }
+                }
+                .item-btn{
+                    margin-top: 30px !important;
+                }
+
+                &.item_2{
+                    .item-text{
+                        h3{
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        padding: 64px 0 51px;
+    }
+}
+
+// News Section Styles 
+.news-section{
+    .section-carousel{
+        .owl-carousel {
+            .item{
+                min-height: 334px;
+                background: $bgLight !important;
+                color: $primaryClr !important;
+                h5{
+                    font-weight: 700;
+                    line-height: 150%;
+                    letter-spacing: 1.4px; 
+                    margin-bottom: 16px;
+                }
+                h4{
+                    font-size: 24px;
+                }
+                .item-btn{
+                    margin-top: 24px !important;
+                }
+            }
+        }
+        .owl-nav{
+            width: 75.2%;
+        }
+    }
+}

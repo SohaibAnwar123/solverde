@@ -1,0 +1,130 @@
+.page-header.article-page-header {
+    background: #00E589;
+
+    h1 {
+        color: $primaryClr;
+        font-size: 48px;
+        font-weight: 450;
+        line-height: 100%;
+        width: 100%;
+        max-width: 836px;
+    }
+}
+
+.articleHero {
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+    h6 {
+        color: $primaryClr;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    h5 {
+        color: $primaryClr;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 140%;
+        text-transform: capitalize;
+        margin-bottom: 24px;
+    }
+}
+
+.articleLi {
+    max-width: 816px;
+    width: 100%;
+
+    .articleImg {
+        width: 100%;
+        margin: 32px 0;
+    }
+
+    li {
+        &+li {
+            margin-top: 32px;
+        }
+
+        h6 {
+            &+h6 {
+                margin-top: 8px;
+            }
+        }
+    }
+
+    &.articleLi_ {
+        max-width: 416px;
+        width: 100%;
+        padding: 32px 24px;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &+li {
+                margin-top: 0;
+            }
+
+            padding: 24px 0;
+
+            .customBtn {
+                gap: 5px;
+                background-color: unset;
+                padding: 0;
+                color: #5355E4;
+                font-size: 14px;
+                font-weight: 450;
+                line-height: 140%;
+            }
+
+            &:first-child {
+                padding-top: 0;
+                padding-bottom: 40px;
+                border-bottom: 1px solid #DADDE2;
+
+                .customBtn {
+                    color: $whiteClr;
+                    font-size: 12px;
+                    font-weight: 450;
+                    line-height: 90%;
+                    padding: 10px 12px;
+                    border-radius: 4px;
+
+                    &:first-child {
+                        border: 1px solid $secondaryClr;
+                        background-color: $secondaryClr;
+                    }
+
+                    &:nth-of-type(2) {
+                        border: 1px solid #5355E4;
+                        background-color: #5355E4;
+                    }
+                }
+            }
+        }
+
+        p {
+            display: flex;
+            gap: 5.5px;
+            align-items: center;
+            color: #5C627A;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 140%;
+        }
+    }
+}
+
+.article-news-section{
+    .section-btn{
+        margin-top: 64px;
+        @media screen and (max-width: 568px) {
+            padding: 0 16px 0 4px;
+            .btn{
+                width: 100%;
+            }
+        }
+    }
+}

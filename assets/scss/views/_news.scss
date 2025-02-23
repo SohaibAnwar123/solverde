@@ -1,0 +1,157 @@
+// news sec start
+.newsWrap {
+    padding: 80px 0;
+
+    .filterSec .accordion-body {
+        padding: 24px 0;
+        border-bottom: 1px solid #DADDE2;
+        li {
+            &:nth-of-type(2) {
+                .customBtn {
+                    border: 0;
+                    border-radius: 100px;
+                    border-color: #5355E4;
+                    background: #5355E4;
+                    color: $whiteClr;
+
+                    span {
+                        color: $primaryClr;
+                        background-color: $whiteClr;
+                    }
+                }
+            }
+            &:nth-of-type(3) {
+                .customBtn {
+
+                    span {
+                        color: $whiteClr;
+                        background-color: #FFBE15;
+                    }
+                }
+            }
+            &:nth-of-type(4) {
+                .customBtn {
+
+                    span {
+                        color: $whiteClr;
+                        background-color: #FD7474;
+                    }
+                }
+            }
+        }
+
+        .customBtn {
+            border: 1px solid $primaryClr;
+            text-decoration: none !important;
+            gap: 8px;
+padding: 12px 8px;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 21.916px;
+                height: 21.916px;
+                background-color: $secondaryClr;
+                color: $whiteClr;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 90%;
+                border-radius: 50%;
+            }
+
+        }
+    }
+}
+
+.newsInner {
+    width: calc(69% - 40px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px 0;
+
+    li {
+        width: calc(33.33% - 18px);
+        border-radius: 16px;
+        background: rgba(218, 221, 226, 0.20);
+        padding: 32px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        &:last-child {
+            padding: 0;
+            background-color: unset;
+            border-radius: 0;
+        }
+
+        .customBtn {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: $primaryClr;
+            color: $whiteClr;
+
+            &:hover {
+                background-color: $secondaryClr;
+            }
+        }
+
+        span {
+            color: $primaryClr;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            display: block;
+        }
+
+        h6 {
+            color: $primaryClr;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 120%;
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+            margin-top: 24px;
+            position: relative;
+
+            &::before {
+                content: "";
+                background-color: $secondaryClr;
+                width: 80px;
+                height: 3px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+
+        }
+
+        p {
+            color: $primaryClr;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 24px;
+        }
+
+        .newsBtn {
+            width: fit-content;
+            padding: 12px 20px;
+            border-radius: 100px;
+            border: 1px solid $primaryClr;
+            margin-top: auto;
+            color: $primaryClr;
+            font-size: 14px;
+            font-weight: 450;
+            line-height: normal;
+
+            &:hover {
+                color: $whiteClr;
+                background-color: $primaryClr;
+            }
+        }
+    }
+}
+
+// news sec end

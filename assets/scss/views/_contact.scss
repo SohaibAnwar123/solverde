@@ -1,0 +1,162 @@
+// contact sec start 
+.contactUs {
+    padding: 80px 0;
+}
+
+.contactDetails {
+    padding: 64px;
+    border-radius: 32px;
+    background: rgba(218, 221, 226, 0.20);
+    width: calc(64.80% - 40px);
+
+    p {
+        color: #5355E4;
+        text-align: center;
+        font-weight: 450;
+    }
+
+    h3 {
+        color: $primaryClr;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 100%;
+        max-width: 448px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    form {
+        margin-top: 32px;
+
+        label {
+            color: $primaryClr;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 90%;
+        }
+
+        input {
+            color: #5C627A;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid #DADDE2;
+            height: 26px;
+            border-radius: 0;
+            padding: 8px 0;
+
+            &::placeholder {
+                color: #5C627A;
+            }
+
+            &:focus {
+                background: unset;
+            }
+        }
+
+        .formGroup {
+            margin-bottom: 32px;
+        }
+
+        .form-check {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            .form-check-input {
+                border-radius: 3px;
+                border: 1px solid $primaryClr;
+                width: 15px;
+                height: 15px;
+                margin: 0;
+                padding: 0;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+                &:checked {
+                    background-color: $primaryClr;
+                }
+            }
+
+            .form-check-label {
+                color: $primaryClr;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: normal;
+
+                a {
+                    color: inherit;
+                }
+            }
+        }
+
+        .customBtn {
+            color: $whiteClr;
+            font-size: 16px;
+            font-weight: 450;
+            line-height: normal;
+            background-color: $primaryClr;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.contactInfo {
+    width: calc(35.2% - 40px);
+
+    p {
+        color: $secondaryClr;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin-top: 24px;
+
+        p {
+            color: $primaryClr;
+            font-weight: 450;
+            text-transform: capitalize;
+        }
+
+        span {
+            color: #5C627A;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 140%;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .customBtn {
+            background-color: $secondaryClr;
+            color: $primaryClr;
+            font-size: 14px;
+            font-weight: 450;
+            gap: 8px;
+            line-height: normal;
+            &:hover{
+                background-color: #5C627A;
+            }
+        }
+        li{
+            &+ li{
+                margin-top: 24px;
+            }
+        }
+    }
+}
+
+// contact sec  end

@@ -1,0 +1,295 @@
+.responsibility-page{
+    .section{
+        min-height: 100vh;
+        min-height: 100dvh;
+        background: $primaryClr;
+        display: flex;
+        align-items: center;
+        color: $whiteClr;
+        position: relative;
+        padding-left: 10%;
+        &::after{
+            content: '';
+            width: 25vw;
+            height: 25vw;
+            position: absolute;
+            display: block;
+            border-radius: 100%;
+            opacity: 0.5;
+            background: radial-gradient(50% 50% at 50% 50%, #00E589 47.4%, #5355E4 100%);
+            filter: blur(70px);
+            z-index: 1;
+            @media screen and (max-width: 768px) {
+                width: 305px;
+                height: 305px;
+            }
+        } 
+        .section-content{
+            position: relative;
+            z-index: 2;
+            h2{
+                font-size: clamp(36px, 4.4vw, 64px);
+                color: $whiteClr;
+                margin-bottom: 40px;
+            }
+            h3{
+                font-size: clamp(20px, 2.2vw, 32px);
+                color: $whiteClr;
+            }
+            p{
+                font-size: clamp(16px, 1.39vw, 20px);
+                max-width: 564px;
+                font-weight: 400;
+                line-height: 130%;
+                margin-top: 16px;
+            }
+        }
+        @media screen and (max-width: 992px) {
+            padding: 0;
+            padding-left: 0;
+        }
+        @media screen and (max-width:768px) {
+            padding: 0;
+            .section-content{
+                p{
+                    max-width: 283px;
+                }
+            }
+        }
+    }
+}
+// Responsibility/Responsabilidade page banner styles
+.respo-hero-section{
+    .section-content{
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        z-index: 1;
+        .section-text{
+            width: 45%;
+        }
+        .section-video{
+            width: 55%;
+            margin-right: -12px;
+            video{
+                width: 100%;
+            }
+        }
+    }
+    &::after{
+        right: -12%;
+        bottom: -10vw;
+        z-index: 2 !important;
+    }
+
+    @media screen and (max-width:768px){
+        align-items: flex-end !important;
+        .section-content{
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0;
+            padding-bottom: 89px;
+            z-index: 2;
+            .section-text, .section-video{
+                width: 100%;
+                margin-right: 0;
+            }
+            .section-text{
+                padding-left: 31px;
+                width: 100%;
+            }
+        }
+        
+        &::after{
+            left: -30%;
+            right: unset;
+            bottom: unset;
+            top: 10%;
+            z-index: 0 !important;
+        }
+    }
+}
+
+// Form Section Styles 
+.form-section{
+    padding-left: 40%;
+    .section-content{
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        z-index: 1;
+        .section-text{
+            width: 100%;
+            max-width: 648px;
+            h3{
+                font-style: normal;
+                font-weight: 450;
+                line-height: 110%
+            }
+            .section-btn{
+                margin-top: 66px;
+            }
+        }
+        .section-video{
+            width: 100%;
+            max-width: 448px;
+            video{
+                width: 130%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+        
+    }
+
+    &::after{
+        display: none !important;
+    }
+    
+    @media screen and (max-width: 768px) {
+        align-items: flex-start !important;
+        
+        .section-content{
+            overflow: hidden;
+            padding: 0;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            .section-video{
+                width: 100%;
+                margin-top: 48px;
+                video{
+                    object-fit: contain;
+                    width: 150%;
+                    transform: translateX(-11%);
+                }
+            }
+            .section-text{
+                padding-left: 31px;
+                width: 100%;
+                h2{
+                    max-width: 164px;
+                }
+                h3{
+                    max-width: 329px;
+                }
+            }
+        }
+    }
+}
+
+// Limits Section Styles 
+.limits-section{
+    .section-content{
+        padding: 0;
+    }
+    .section-text{
+        a{
+            text-decoration: underline;
+            color: $whiteClr;
+            &:hover{
+                color: $secondaryClr;
+            }
+        }
+        @media screen and (max-width:768px) {
+            padding: 0 33px 0 31px;
+            margin-bottom: 70px;
+        }
+    }
+    .section-video{
+        overflow: hidden;
+        video{
+            width: 200%;
+            object-fit: contain;
+            @media screen and (max-width:767px) {
+                object-position: center;
+                transform: translateX(-25%);
+            }
+        }
+    }
+    .section-items{
+        width: 82%;
+        max-width: 990px;
+        display: flex;
+        gap: 41px;
+        padding: 0;
+        .section-item{
+            width: calc(33.33% - 27px);
+            .item-icon{
+                margin-bottom: 16px;
+            }
+            p{
+                font-weight: 400; 
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            padding: 0 31px;
+            flex-wrap: wrap;
+            .section-item{
+                width: 100%;
+            }
+        }
+    }
+    &::after{
+        left: -10%;
+        top: 40%;
+        transform: translateY(-50%);
+    } 
+}
+
+// Exclusion Section Styles 
+.exclusion-section{
+    min-height: 150vh !important;
+    padding-left: 0px !important;
+    align-items: flex-end !important;
+    .section-content{
+        .section-video{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            video{
+                width: 300%;
+                object-fit: contain;
+                // transform: translateX(-5%);
+            }
+        }
+        .section-text{
+            padding-right: 7%;
+            padding-left: 3%;
+            h3, p{
+                max-width: 100%;
+            }
+        }
+    }
+    &::after{
+        width: 56vw !important;
+        height: 56vw !important;
+        right: -30%;
+        top: 0%;
+    } 
+    @media screen and (max-width: 768px) {
+        padding-bottom: 80px !important;
+    }
+}
+
+// News Carouel Section Styles 
+.news-section{
+    display: block !important;
+    padding-left: 0 !important;
+    &::after{
+        left: -12%;
+        top: 0%;
+    } 
+    @media screen and (max-width: 768px) {
+        padding-top: 80px !important;
+        &::after{
+            left: -20%;
+            top: -8%;
+        } 
+    }
+}

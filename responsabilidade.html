@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" integrity="sha512-KulI0psuJQK8UMpOeiMLDXJtGOZEBm8RZNTyBBHIWqoXoPMFcw+L5AEo0YMpsW8BfiuWrdD1rH6GWGgQBF59Lg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Solverde</title>
+</head>
+
+<body>
+    <div class="main-wrapper responsibility-page">
+
+        <!-- Header Start -->
+        <header class="site-header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="./">
+                        <img src="./assets/img/Logo.svg" alt="">
+                    </a>
+                    <span class="nav-search-btn d-lg-none" type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
+                        <img src="./assets/img/icons/search-icon.svg" alt="">
+                    </span>
+                    <div class="collapse navbar-collapse nav-menu" id="siteNavbar">
+                        <ul class="navbar-nav ms-lg-auto mb-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./careers.html">carreiras</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Responsabilidade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./news.html">Notícias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contactUs.html">Contactos</a>
+                            </li>
+                        </ul>
+                        <span class="nav-search-btn d-none d-lg-flex" type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
+                            <img src="./assets/img/icons/search-icon.svg" alt="">
+                        </span>
+    
+                        <div class="social-menu d-lg-none">
+                            <h5 class="page-section-title text-center text-secondary">SEGUE-NOS</h5>
+                            <ul class="navbar-nav">
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/img/icons/linked-in.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/img/icons/facebook.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/img/icons/instagram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/img/icons/twitter.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <img src="./assets/img/icons/youtube.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="navbar-close-btn d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.97401 20.0074C3.59788 19.6317 3.59788 19.0226 3.97401 18.6469L18.957 3.68031C19.3331 3.30459 19.9429 3.30459 20.3191 3.68031C20.6952 4.05603 20.6952 4.66519 20.3191 5.04091L5.3361 20.0074C4.95997 20.3832 4.35014 20.3832 3.97401 20.0074Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.68224 3.99329C4.05837 3.61757 4.6682 3.61757 5.04433 3.99329L20.0273 18.9598C20.4034 19.3355 20.4034 19.9447 20.0273 20.3204C19.6512 20.6961 19.0413 20.6961 18.6652 20.3204L3.68224 5.35388C3.30611 4.97816 3.30611 4.369 3.68224 3.99329Z" fill="white"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header End -->
+    
+        <!-- Mobile Bottom Menu Start -->
+        <div class="mobile-menu d-lg-none">
+            <ul class="nav-list mobile-nav">
+                <li>
+                    <a class="nav-link" href="./">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="octicon:home-24">
+                                <path id="Vector" d="M11.03 2.58991C11.3011 2.36035 11.6448 2.23438 12 2.23438C12.3552 2.23437 12.6989 2.36035 12.97 2.58991L20.47 8.95291C20.6361 9.0937 20.7695 9.26896 20.861 9.46652C20.9526 9.66407 21 9.87918 21 10.0969V19.4999C21 19.8977 20.842 20.2793 20.5607 20.5606C20.2794 20.8419 19.8978 20.9999 19.5 20.9999H13.75C13.5511 20.9999 13.3603 20.9209 13.2197 20.7802C13.079 20.6396 13 20.4488 13 20.2499V13.9999H11V20.2499C11 20.4488 10.921 20.6396 10.7803 20.7802C10.6397 20.9209 10.4489 20.9999 10.25 20.9999H4.5C4.10218 20.9999 3.72064 20.8419 3.43934 20.5606C3.15804 20.2793 3 19.8977 3 19.4999V10.0969C3 9.65691 3.194 9.23791 3.53 8.95291L11.03 2.58991ZM12 3.73391L4.5 10.0969V19.4999H9.5V13.2499C9.5 13.051 9.57902 12.8602 9.71967 12.7196C9.86032 12.5789 10.0511 12.4999 10.25 12.4999H13.75C13.9489 12.4999 14.1397 12.5789 14.2803 12.7196C14.421 12.8602 14.5 13.051 14.5 13.2499V19.4999H19.5V10.0969L12 3.73391Z" fill="currentColor"/>
+                            </g>
+                        </svg>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./sobre.html">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Vector" d="M8.07322 0.345957C2.73315 1.75821 -0.422342 7.25274 1.01197 12.5928C2.44629 17.9329 7.91875 21.0884 13.2588 19.654C18.5989 18.2197 21.7544 12.7473 20.3201 7.4072C18.8857 2.06714 13.4133 -1.08836 8.07322 0.345957ZM16.7453 5.20056L18.1796 4.86957C18.4003 4.82543 18.5327 5.02403 18.4003 5.20056L17.4956 6.37008L16.5026 7.672C16.3922 7.82646 16.1495 7.84853 16.0612 7.71613L15.4875 6.83347L14.9138 5.95082C14.8255 5.81842 14.9579 5.61982 15.1345 5.57569L16.7453 5.20056ZM11.67 3.74418L12.7513 2.50846L13.7222 1.38308C13.8767 1.20655 14.0973 1.29481 14.0753 1.51548L14.0311 2.99392L13.987 4.62684C13.987 4.82543 13.8105 4.9799 13.656 4.9137L12.663 4.53857L11.7142 4.18551C11.5818 4.11931 11.5597 3.89864 11.67 3.74418ZM15.5096 8.64292C15.5096 8.66498 15.5096 8.66498 15.5096 8.68705C16.2378 11.3791 14.649 14.1595 11.9569 14.9098H11.9348C9.22067 15.66 6.41824 14.0712 5.66798 11.3571C4.91772 8.64292 6.5065 5.84049 9.22067 5.09023C11.9569 4.33997 14.7814 5.90669 15.5096 8.64292ZM7.78635 4.31791L7.91875 2.68499L8.02908 1.20655C8.05115 0.985882 8.27181 0.919683 8.40421 1.09621L9.24273 2.30987L10.1695 3.65591C10.2799 3.81038 10.2357 4.05311 10.0813 4.07518L9.0662 4.33997L8.05115 4.60477C7.94082 4.67097 7.78635 4.5165 7.78635 4.31791ZM3.59374 4.07518L4.98392 4.56064L6.52857 5.1123C6.7051 5.1785 6.81543 5.39916 6.7051 5.50949L6.04311 6.32595L5.38112 7.1424C5.31492 7.2748 5.07219 7.23067 4.98392 7.05414L4.12333 5.64189L3.35101 4.38411C3.24068 4.18551 3.39514 4.00898 3.59374 4.07518ZM1.4533 9.32698L2.86555 8.90771L4.43226 8.44432C4.60879 8.37812 4.82946 8.51052 4.80739 8.66498L4.78532 9.7021L4.74119 10.7613C4.74119 10.9158 4.52053 11.004 4.344 10.9378L2.82142 10.2979L1.4533 9.72417C1.23264 9.6359 1.23264 9.39317 1.4533 9.32698ZM4.45433 14.8215L3.02001 15.1525C2.79935 15.1966 2.66695 14.998 2.79935 14.8215L3.70407 13.652L4.69706 12.3501C4.80739 12.1956 5.05012 12.1735 5.13839 12.3059L5.71211 13.1886L6.28584 14.0712C6.3741 14.2036 6.24171 14.4022 6.06517 14.4464L4.45433 14.8215ZM9.5296 16.2779L8.44834 17.5136L7.49949 18.639C7.34502 18.8155 7.12436 18.7273 7.14643 18.5066L7.19056 17.0281L7.23469 15.3952C7.23469 15.1966 7.41122 15.0422 7.56569 15.1084L8.55868 15.4835L9.55166 15.8586C9.63993 15.9028 9.662 16.1234 9.5296 16.2779ZM13.4353 15.7042L13.3029 17.3371L13.1926 18.8155C13.1706 19.0362 12.9499 19.1024 12.8175 18.9259L11.979 17.7122L11.0522 16.3662C10.9418 16.2117 10.986 15.969 11.1404 15.9469L12.1555 15.6821L13.1706 15.4173C13.2809 15.329 13.4353 15.5056 13.4353 15.7042ZM17.6059 15.9248L16.2157 15.4394L14.6711 14.8877C14.4945 14.8215 14.3842 14.6008 14.4945 14.4905L15.1565 13.6741L15.8185 12.8576C15.9068 12.7252 16.1495 12.7914 16.2378 12.9459L17.0984 14.3581L17.8707 15.6159C17.981 15.8145 17.8266 16.0131 17.6059 15.9248ZM19.7684 10.673L18.3561 11.0923L16.7674 11.5777C16.5908 11.6439 16.3702 11.5115 16.3922 11.3571L16.4364 10.2979L16.4805 9.23871C16.4805 9.08425 16.7012 8.99598 16.8777 9.06218L18.4003 9.7021L19.7684 10.2758C19.9891 10.3862 19.9891 10.6289 19.7684 10.673Z" fill="currentColor"/>
+                        </svg>
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./careers.html">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 18 20.5" style="enable-background:new 0 0 18 20.5;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:currentColor;}
+                                    .st1{fill:none;stroke:currentColor;stroke-width:1.5;}
+                                </style>
+                                <path class="st0" d="M16.3,19.8H2.1c-0.5,0-0.9-0.2-1.2-0.5S0.3,18.5,0.3,18V9.2c0-1,0.4-1.9,1.1-2.6c0.7-0.7,1.7-1.1,2.6-1.1h10.2
+                                    c1,0,1.9,0.4,2.7,1.1C17.6,7.3,18,8.2,18,9.2V18c0,0.5-0.2,0.9-0.5,1.2S16.7,19.8,16.3,19.8z M4.1,7C3.5,7,2.9,7.2,2.5,7.7
+                                    c-0.4,0.4-0.7,1-0.7,1.6V18c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0h14.2c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0
+                                    c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1V9.2c0-0.6-0.2-1.2-0.7-1.6c-0.4-0.4-1-0.7-1.6-0.7H4.1z"/>
+                                <path class="st1" d="M1.3,12.5c3.6,1.9,11.7,1.9,16,0"/>
+                                <path class="st1" d="M13.1,5.7L13.1,5.7c0-2.2-1.8-4-4-4l0,0c-2.2,0-4,1.8-4,4l0,0"/>
+                        </svg>
+                        Carreiras
+                    </a>
+                </li>
+                <li>
+                    <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Group">
+                            <path id="Vector" d="M20 1.5H1C0.801088 1.5 0.610322 1.42098 0.46967 1.28033C0.329018 1.13968 0.25 0.948912 0.25 0.75C0.25 0.551088 0.329018 0.360323 0.46967 0.21967C0.610322 0.079018 0.801088 0 1 0H20C20.1989 0 20.3897 0.079018 20.5303 0.21967C20.671 0.360323 20.75 0.551088 20.75 0.75C20.75 0.948912 20.671 1.13968 20.5303 1.28033C20.3897 1.42098 20.1989 1.5 20 1.5Z" fill="currentColor"/>
+                            <path id="Vector_2" d="M20 8H1C0.801088 8 0.610322 7.92098 0.46967 7.78033C0.329018 7.63968 0.25 7.44891 0.25 7.25C0.25 7.05109 0.329018 6.86032 0.46967 6.71967C0.610322 6.57902 0.801088 6.5 1 6.5H20C20.1989 6.5 20.3897 6.57902 20.5303 6.71967C20.671 6.86032 20.75 7.05109 20.75 7.25C20.75 7.44891 20.671 7.63968 20.5303 7.78033C20.3897 7.92098 20.1989 8 20 8Z" fill="currentColor"/>
+                            <path id="Vector_3" d="M14 14.5H1C0.801088 14.5 0.610322 14.421 0.46967 14.2803C0.329018 14.1397 0.25 13.9489 0.25 13.75C0.25 13.5511 0.329018 13.3603 0.46967 13.2197C0.610322 13.079 0.801088 13 1 13H14C14.1989 13 14.3897 13.079 14.5303 13.2197C14.671 13.3603 14.75 13.5511 14.75 13.75C14.75 13.9489 14.671 14.1397 14.5303 14.2803C14.3897 14.421 14.1989 14.5 14 14.5Z" fill="currentColor"/>
+                            </g>
+                        </svg>
+                        Menu
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Mobile Bottom Menu End -->
+    
+        <!-- hero sec start  -->
+        <section class="section respo-hero-section">
+            <div class="container section-content">
+                <div class="section-text">
+                    <h2>Joga por <br/>Diversão</h2>
+                    <h3>Sim, isso mesmo: por diversão!</h3>
+                    <p>
+                        Desfruta da sua componente lúdica e não o consideres como um meio de obtenção de rendimentos e, muito menos, um modo de vida. Lembra-te sempre que os resultados dependem da sorte!
+                    </p>
+                </div>
+                <div class="section-video">
+                    <video autoplay playsinline muted loop>
+                        <source src="./assets/videos/diversao.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <!-- hero sec end -->
+    
+        <!-- Form/FORMULÁRIO Section Start -->
+        <section class="section form-section">
+            <div class="section-content container">
+                <div class="section-video">
+                    <video autoplay playsinline muted loop>
+                        <source src="./assets/videos/autoavaliacao.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="section-text">
+                    <h5 class="page-section-title text-secondary mb-3 mb-md-3">FORMULÁRIO</h5>
+                    <h2>Desafio para hoje:</h2>
+                    <h3>Avaliares os teus hábitos de jogo. Será que jogas por diversão?</h3>
+                    <div class="section-btn">
+                        <a href="" class="btn btn-secondary">
+                            Faz o Teste e Descobre
+                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Form/FORMULÁRIO Section End -->
+    
+        <!-- LIMITES Section Start -->
+        <section class="section limits-section">
+            <div class="section-content container">
+                <div class="row m-0 align-items-center">
+                    <div class="col-12 col-md-6 section-text">
+                        <h5 class="page-section-title text-secondary mb-3">LIMITES</h5>
+                        <h2>Estabelece <br/>os teus limites</h2>
+                        <p>
+                            É importante conheceres-te e aos teus limites. Para te ajudar nessa tarefa, no site <a href="www.solverde.pt" target="_blank">www.solverde.pt</a> da SOLVERDE S.A., encontras formas de:
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 p-0 section-video d-none d-md-block">
+                        <video autoplay playsinline muted loop>
+                            <source src="./assets/videos/limits.mp4" type="">
+                        </video>
+                    </div>
+                    <div class="col-12 section-items">
+                        <div class="section-item">
+                            <div class="item-icon">
+                                <img src="./assets/img/icons/clock.svg" alt="">
+                            </div>
+                            <p>
+                                Verificar quanto tempo dedicaste diariamente à atividade de jogos e apostas
+                            </p>
+                        </div>
+                        <div class="section-item">
+                            <div class="item-icon">
+                                <img src="./assets/img/icons/wallet.svg" alt="">
+                            </div>
+                            <p>
+                                Consultar todas as operações que efetuaste, assim como o saldo da tua conta
+                            </p>
+                        </div>
+                        <div class="section-item">
+                            <div class="item-icon">
+                                <img src="./assets/img/icons/lock.svg" alt="">
+                            </div>
+                            <p>
+                                Definir limites de depósito e apostas no intuito de assegurar uma boa gestão financeira
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 section-video d-block d-md-none">
+                        <video autoplay playsinline muted loop>
+                            <source src="./assets/videos/limits.mp4" type="">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- LIMITES Section End -->
+
+        <!-- AUTO-EXCLUSÃO/ Exclusion Section Start -->
+        <section class="section exclusion-section">
+            <div class="section-content container">
+                <div class="row m-0 align-items-center flex-column-reverse flex-md-row">
+                    <div class="col-12 col-md-5 col-xl-4 section-video">
+                        <video autoplay playsinline muted loop >
+                            <source src="./assets/videos/self-exclusion.mp4" type="">
+                        </video>
+                    </div>
+                    <div class="col-12 col-md-7 col-xl-8 section-text ps-0">
+                        <h5 class="page-section-title text-secondary mb-3 mb-md-3">AUTO-EXCLUSÃO</h5>
+                        <h2>Sabes quando<br/>tens de parar?</h2>
+                        <h3>
+                            É importante saberes que, a qualquer momento, podes autoexcluir-te dos nossos serviços de forma temporária ou indefinidamente.
+                        </h3>
+                        <p>
+                            Assim que realizares o teu pedido, e a tua conta for suspensa (autoexclusão temporária) ou cancelada (autoexclusão por período indeterminado), nenhuma aposta que faças será aceite. Deixas, ainda, de receber comunicações promocionais da nossa parte.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-img d-md-none my-4">
+                    <img src="./assets/img/exclusion-18.png" class="w-100 object-contain" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- AUTO-EXCLUSÃO/ Exclusion Section End -->
+
+        <!-- NOTÍCIAS/NEWS Section Start -->
+        <section class="section carousel-section news-section">
+            <div class="section-content container">
+                <div class="section-text">
+                    <h5 class="page-section-title text-secondary text-center">NOTÍCIAS</h5>
+                    <h3 class="text-center">Texto sobre as notícias </h3>
+                </div>
+            </div>
+            <div class="section-content section-carousel">
+                <div class="teams-carousel owl-carousel owl-theme light-carousel">
+                    <div class="item">
+                        <div class="item-content">
+                            <h5 class="fs-14">01·01·2023</h5>
+                            <h4>
+                                Solverde associa-se a FC Paços de Ferreira para ajudar profissionais da Cultura
+                            </h4>
+                            <div class="hor-divider secondary"></div>
+                            <p>
+                                Por forma a ajudar a mitigar o forte impacto que a COVID-19 teve no trabalho dos profissionais da cultura, em 2021 o Solverde.pt, juntamente com o Pingo Doce, a Fundação do Futebol, a Câmara Municipal de Paços de Ferreira….
+                            </p>
+                        </div>
+                        <a href="./article.html" class="item-btn btn btn-primary-outline w-auto ">
+                            Ler mais
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="item-content">
+                            <h5 class="fs-14">01·01·2023</h5>
+                            <h4>
+                                Solverde.pt Cup Junta Fc Paços De Ferreira E Fc Vizela Em Jogo Solidário
+                            </h4>
+                            <div class="hor-divider secondary"></div>
+                            <p>
+                                Em 2022, o Solverde.pt Cup uniu as equipas de futebol do FC Paços de Ferreira e FC de Vizela para um jogo amigável de cariz solidário.
+                            </p>
+                        </div>
+                        <a href="./article.html" class="item-btn btn btn-primary-outline w-auto ">
+                            Ler mais
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="item-content">
+                            <h5 class="fs-14">01·01·2023</h5>
+                            <h4>
+                                Solverde associa-se a FC Paços de Ferreira para ajudar profissionais da Cultura
+                            </h4>
+                            <div class="hor-divider secondary"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id nisi quam.
+                            </p>
+                        </div>
+                        <a href="./article.html" class="item-btn btn btn-primary-outline w-auto ">
+                            Ler mais
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="item-content">
+                            <h5 class="fs-14">01·01·2023</h5>
+                            <h4>
+                                Solverde associa-se a FC Paços de Ferreira para ajudar profissionais da Cultura
+                            </h4>
+                            <div class="hor-divider secondary"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id nisi quam.
+                            </p>
+                        </div>
+                        <a href="./article.html" class="item-btn btn btn-primary-outline w-auto ">
+                            Ler mais
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div class="item-content">
+                            <h5 class="fs-14">01·01·2023</h5>
+                            <h4>
+                                Solverde associa-se a FC Paços de Ferreira para ajudar profissionais da Cultura
+                            </h4>
+                            <div class="hor-divider secondary"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id nisi quam.
+                            </p>
+                        </div>
+                        <a href="./article.html" class="item-btn btn btn-primary-outline w-auto ">
+                            Ler mais
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-slidebar light">
+                    <div class="slide-path">
+                        <div class="slide-thumb"></div>
+                    </div>
+                    <div class="slide-numbers">
+                        <span class="active-slide">0</span>
+                        <span class="divider"></span>
+                        <span class="slide-length">0</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NOTÍCIAS/NEWS Section End -->
+    
+        <!-- footer start  -->
+        <footer class="footerWrap">
+            <div class="container">
+                <div class="footerLogo">
+                    <img src="./assets/img/Logo.svg" alt="">
+                </div>
+                <div class="d-flex justify-content-between align-items-end flex-md-nowrap flex-wrap">
+                    <ul class="footerLi">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">cARREIRAS</a></li>
+                        <li><a href="">Notícias</a></li>
+                        <li><a href="">Responsabilidade</a></li>
+                        <li><a href="">Contactos</a></li>
+                    </ul>
+                    <div class="footerContent">
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida gravida dolor, ut fermentum
+                            nulla ultrices id. <span class="fw500 d-block">Serás a carta que falta?</span></h6>
+                        <div class="d-flex align-items-end gap-5 flex-md-nowrap flex-wrap justify-content-md-between justify-content-center">
+                            <div>
+                                <p>SEGUE-NOS</p>
+                                <ul class="socialIcons">
+                                    <li><a href=""><img src="./assets/img/icons/linkedinIcon.svg" alt=""></a></li>
+                                    <li><a href=""><img src="./assets/img/icons/fbIcon.svg" alt=""></a></li>
+                                    <li><a href=""><img src="./assets/img/icons/instaIcon.svg" alt=""></a></li>
+                                    <li><a href=""><img src="./assets/img/icons/twitterIcon.svg" alt=""></a></li>
+                                    <li><a href=""><img src="./assets/img/icons/youTubeIcon.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <a href="" class="flex_align customBtn">Ir para Solverde.pt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBtm">
+                <div class="container">
+                    <ul>
+                        <li>
+                                <img src="./assets/img/icons/footerIcon.svg" alt="">
+                            <p>
+                                Joga com moderação. Se tiveres problemas com o jogo ou conheces alguém nessa situação, contacta a <a href=""> Linha Vida</a>.
+                            </p>
+                        </li>
+                        <li>
+                                <img src="./assets/img/icons/footerIcon2.svg" alt="">
+                            <span>
+                                WEBSITE REGULAMENTADO E 100% PORTUGUÊS
+                            </span>
+                        </li>
+                        <li>
+                            <h6>© 2023 Grupo Solverde • Todos os direitos reservados. A Solverde.pt é operada pela Solverde, Sociedade de Investimentos Turísticos da Costa Verde S.A. Empresa registada em Portugal com NIPC 500 272 484 Sede registada na rua 19 nº 85, Espinho 4500-256. É titular das licenças nº10 e nº24, emitidas pelo SRIJ - Serviços de Regulação e Inspeção de Jogos - autorizando a mesma a desenvolver a atividade de exploração de jogos de fortuna ou azar e de apostas desportivas à cota, respectivamente, em Portugal.</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+  
+    <!-- Search Modal -->
+    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="search-input-con">
+                    <input placeholder="Procurar..." type="search" id="header-search" class="form-control">
+                    <span class="search-icon">
+                        <img src="./assets/img/icons/search-icon.svg" alt="search icon">
+                    </span>
+                    <span class="search-icon search-icon_">
+                        <img src="./assets/img/icons/searchClose.svg" alt="search icon">
+                    </span>
+                </div>
+
+                <div class="search-suggestions-con">
+                    <div class="search-results">
+                        <ul class="search-list results-list">
+                            <li><a href="">Senior Web <b>Dev</b>eloper</a></li>
+                            <li><a href="">Junior Web <b>Dev</b>eloper</a></li>
+                        </ul>
+                    </div>
+                    <div class="popular-searches">
+                        <h5>Pesquisas populares</h5>
+                        <ul class="search-list popular-searches-list">
+                            <li><a href="">Developer</a></li>
+                            <li><a href="">CMS Manager</a></li>
+                            <li><a href="">IT</a></li>
+                            <li><a href="">Remote</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-suggestions">
+                        <ul class="search-list suggestions-list">
+                            <li><a href="">Senior Web <b>Developer</b></a></li>
+                            <li><a href="">Junior Web <b>Developer</b></a></li>
+                            <li><a href="">Explorando o Mundo do <b>Developer</b> na Solverde.pt</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-results-con">
+                    <div class="vacancies-results">
+                        <div class="list-title">
+                            <span>Vagas</span>
+                        </div>
+                        <ul class="vacancies-list">
+                            <li>
+                                <a href="" class="vac-title">Senior Web Developer</a>
+                                <div class="list-types-con">
+                                    <span class="tag secondary item-category">
+                                        <img src="./assets/img/laptopIconBlack.svg" alt="">
+                                        IT
+                                    </span>
+                                    <span class="tag purple item-type">
+                                        <img src="./assets/img/remoteIcon.svg" alt="">
+                                        Remote
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="vac-title">Junior Web Developer</a>
+                                <div class="list-types-con">
+                                    <span class="tag secondary item-category">
+                                        <img src="./assets/img/laptopIconBlack.svg" alt="">
+                                        IT
+                                    </span>
+                                    <span class="tag purple item-type">
+                                        <img src="./assets/img/remoteIcon.svg" alt="">
+                                        Remote
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="news-results">
+                        <div class="list-title">
+                            <span>Notícias</span>
+                        </div>
+                        <ul class="vacancies-list">
+                            <li>
+                                <a href="" class="vac-title">Explorando o Mundo do Developer na Solverde.pt</a>
+                                <div class="list-types-con">
+                                    <span class="tag secondary item-category">
+                                        Carreiras
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
